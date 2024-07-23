@@ -7,8 +7,10 @@ int main() {
     cin>>n;
     if(n>=3000){
         cout<<"book";
-    }else{
+    }else if(n>0){
         cout<<"mask";
+    }else{
+        cout<<"no";
     }
     return 0;
 }
