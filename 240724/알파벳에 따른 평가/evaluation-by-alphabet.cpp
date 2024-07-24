@@ -15,6 +15,8 @@ int main() {
         cout<<"Usually";
     }else if(c=='D'){
         cout<<"Effort";
+    }else{
+        cout<<"Failure";
     }
     return 0;
 }
